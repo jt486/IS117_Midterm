@@ -1,0 +1,62 @@
+#wrapper{
+    margin: auto;
+    width: 960px;
+    min-height: 300px;
+    background-color: aliceblue;
+
+}
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#menu{
+    margin: auto;
+    width:960px;
+    height:100px;
+    background-color: aquamarine;
+}
+
+#main{
+    width:960px;
+    height:554px;
+    background-image: url("/docs/images/car.jpg");
+    background-size: 960px 554px;
+}
+
+
+#sidebar{
+    width: 640px;
+    height:554px;
+    float: left;
+    background-color: black;
+
+}
+
+#text{
+    width: 600px;
+    text-align: right;
+    margin-top: 250px;
+    padding: 0;
+    color: white;
+}
+
+#footer{
+
+}
+
+li {
+    float: right;
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    height:50px;
+    text-decoration: none;
+}
