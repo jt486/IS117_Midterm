@@ -1,8 +1,9 @@
 #wrapper{
     margin: auto;
     width: 960px;
-    min-height: 300px;
+    height: 554px;
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -17,35 +18,82 @@
     margin: auto;
     width:960px;
     height:100px;
-    background-color: aquamarine;
+    background-color: white;
+    font-size: 20px;
 }
 
 #main{
     width:960px;
     height:554px;
-    background-image: url("/docs/images/car.jpg");
+    background-image: url("https://jt486.github.io/midterm/docs/images/car.jpg");
+    background-size: 960px 554px;
+}
+
+#main2{
+    width:960px;
+    height:554px;
+    background-color: white;
     background-size: 960px 554px;
 }
 
 
+
 #sidebar{
-    width: 640px;
+    width: 500px;
     height:554px;
     float: left;
-    background-color: black;
+    background-color: black;opacity:0.5;
 
+
+}
+
+#sidebar2{
+    width: 350px;
+    min-height:300px;
+    float: left;
+    background-color: white;
+    border: 1px solid #000;
+    position: initial;
+
+}
+
+#content {
+    width: 610px;
+    min-height: 300px;
+    background-color: silver;
+    float: right;
 }
 
 #text{
-    width: 600px;
-    text-align: right;
-    margin-top: 250px;
+    width: 500px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
     padding: 0;
     color: white;
+    opacity: unset;
+}
+
+#text_link{
+    width: 500px;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+    color: blue;
+    opacity: unset;
 }
 
 #footer{
-
+    width:960px;
+    min-height:70px;
+    background-color: black;
+    color: white;
+    clear: both; /* for footer to stay down */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px; /* same as div height */
 }
 
 li {
@@ -59,4 +107,22 @@ li a {
     padding: 14px 16px;
     height:50px;
     text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.picture{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+.sidebar_text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+    height: 200px;
+    text-align: left;
 }
