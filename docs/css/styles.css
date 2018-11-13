@@ -1,4 +1,7 @@
-#wrapper{
+html{
+    background-color: #f2f2f2;
+}
+#wrapper {
     margin: auto;
     width: 960px;
     height: 554px;
@@ -7,66 +10,63 @@
 
 }
 
-
-#logo{
+#logo {
     width: 100px;
     height: 100px;
     float: left;
 }
 
-#menu{
+#menu {
     margin: auto;
-    width:960px;
-    height:100px;
+    width: 960px;
+    height: 100px;
     background-color: white;
     font-size: 20px;
 }
 
-#main{
-    width:960px;
-    height:554px;
+#main {
+    width: 960px;
+    height: 554px;
     background-image: url("https://jt486.github.io/midterm/docs/images/car.jpg");
     background-size: 960px 554px;
 }
 
-#main2{
-    width:960px;
-    height:300px;
+#main2 {
+    width: 960px;
+    height: 300px;
     background-color: white;
     background-size: 960px 554px;
 }
 
-
-
-#sidebar{
-    width: 500px;
-    height:554px;
+#sidebar {
+    width: 480px;
+    height: 554px;
     float: left;
-    background-color: black;opacity:0.5;
-
+    background-color: black;
+    opacity: 0.5;
 
 }
 
-#sidebar2{
-    width:320px;
-    min-height: 300px;
+#sidebar2 {
+    width: 320px;
+    height: 500px;
     background-color: white;
     float: left;
 
 }
 
 #content {
-    width:640px;
-    min-height: 300px;
+    width: 640px;
+    height: 500px;
     background-color: white;
     float: right;
     position: initial;
 }
 
-#text{
+#text {
     width: 500px;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 100px;
     margin-left: 20px;
     padding: 0;
@@ -74,25 +74,25 @@
     opacity: unset;
 }
 
-#text_link{
-    width: 500px;
+#text_link {
+    width: 470px;
     text-align: right;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 10px;
-    padding-right: 10px;
+    padding-right: -10px;
     color: blue;
     opacity: unset;
 }
 
-#footer{
-    width:960px;
-    min-height:70px;
+#footer {
+    width: 960px;
+    min-height: 70px;
     background-color: black;
     color: white;
     clear: both; /* for footer to stay down */
     text-align: center;
     vertical-align: middle;
-    line-height: 50px; /* same as div height */
+    line-height: 60px; /* same as div height */
 }
 
 li {
@@ -104,21 +104,21 @@ li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
-    height:50px;
+    height: 50px;
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.picture{
+.picture {
     margin-top: 10px;
     text-align: center;
     padding: 0;
 }
 
-.sidebar_text{
+.sidebar_text {
     margin-left: auto;
     margin-right: auto;
     width: 290px;
