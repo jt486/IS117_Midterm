@@ -2,7 +2,7 @@
     margin: auto;
     width: 960px;
     height: 554px;
-    background-color: aliceblue;
+    background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -31,7 +31,7 @@
 
 #main2{
     width:960px;
-    height:554px;
+    height:300px;
     background-color: white;
     background-size: 960px 554px;
 }
@@ -48,20 +48,19 @@
 }
 
 #sidebar2{
-    width: 350px;
-    min-height:300px;
-    float: left;
+    width:320px;
+    min-height: 300px;
     background-color: white;
-    border: 1px solid #000;
-    position: initial;
+    float: left;
 
 }
 
 #content {
-    width: 610px;
+    width:640px;
     min-height: 300px;
-    background-color: silver;
+    background-color: white;
     float: right;
+    position: initial;
 }
 
 #text{
